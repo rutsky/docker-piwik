@@ -23,7 +23,7 @@ RUN apt-get -y install mysql-client mysql-server apache2 libapache2-mod-php5 php
 #GeoIP
 RUN apt-get install -y php5-geoip php5 libgeoip-dev
 
-#Piwki
+#Piwik
 RUN wget http://builds.piwik.org/latest.zip && \
     unzip latest.zip && \
     rm latest.zip
